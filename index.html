@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Librería El Árbol de Papel</title>
+<link rel="icon" href="img/fav.png" >
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="estilo.css">
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+<body>
+    <div class="site-grid">
+        <header class="header">
+            <div class="brand">
+                <h1 class="site-title">Librería El Árbol de Papel</h1>
+            </div>
+                <nav class="nav">
+                    <ul>
+                        <li><a href="#inicio"><i class="fa-solid fa-house-chimney-user"></i>| Inicio</a></li>
+                        <li><a href="#catalogo"><i class="fa-regular fa-bookmark"></i>| Catálogo</a></li>
+                        <li><a href="#contacto"><i class="fa-solid fa-user"></i>| Contacto</a></li>
+                    </ul>
+                </nav>
+        </header>
+    <main class="main" id="inicio">
+        <section class="banner" id="banner">
+            <img src="img/book1.jpg" alt="banner1" class="banner-img active">
+            <img src="img/book2.jpg" alt="banner2" class="banner-img">
+            <img src="img/book3.jpg" alt="banner3" class="banner-img">
+        </section>
+        <section class="three-cols" id="catalogo">
+            <div class="col imagen">
+                <h2>Secciones</h2>
+                <img src="img/stack.jpg" alt="libros" class="cover">
+                <P>Hay secciones variadas para todas las edades y epocas, desde Biblias hasta cuentos infantiles</p>
+            </div>
+            <div class="col texto">
+                <h2>Nuestros libros</h2>
+                <p>Ofrecemos una selección diversa: novelas, formación profesional, textos escolares y material corporativo. Calidad y atención personalizada en cada pedido.</p>
+                    <ul class="features">
+                        <li>Catálogo amplio</li>
+                        <li>Descuentos por volumen</li>
+                        <li>Envíos rápidos</li>
+                    </ul>
+            </div>
+            <div class="col formulario" id="contacto">
+                <h2>Contacto</h2>
+                    <form id="contactForm">
+                        <input type="text" name="name" placeholder="Nombre" required>
+                        <input type="email" name="email" placeholder="Email" required>
+                            <textarea name="message" placeholder="Mensaje (opcional)"></textarea>
+                                <button type="submit">Enviar</button>
+                    </form>
+            <div id="formMessage" aria-live="polite"></div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-info">
+            <p>©2025 ArboldePapel - Libreira Online</p>
+            <p>Dirección: Av. Lectura 123, Lima - Peru</p>
+            <p>Teléfono: +51 987 654 321</p>
+                <div class="socials">
+                    <a href="www.facebook.com"><i class="fa-brands fa-square-facebook"></i></a>|
+                    <a href="www.instagram.com"><i class="fa-brands fa-instagram"></i></a>|
+                    <a href="www.x.com"><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+        </div>
+    </footer>
+</div>
+<script src="scripts.js"></script>
+</body>
+</html>
